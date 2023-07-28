@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    --primary-bg-color: #1E202B;
+    --secondary-bg-color:#323544;
+    --primary-color: #009ad8;
+}
+.navbar{
+    background-color:  var(--primary-bg-color) !important;
+}
+.navbar-nav .nav-link{
+    color: white !important;
+    padding: 5px 20px !important;
+    transition: .2s all;
+}
+.navbar-nav .nav-link.active , .navbar-nav .nav-link:hover{
+    color: var(--primary-color) !important;
+    border: 2px solid var(--primary-color) !important;
+    border-radius: 20px;
+}
+.bg-section{
+    min-height: 300px;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+}
+.ip{
+    background-color: var(--primary-bg-color);
+    border-radius: 25px;
+    width: fit-content;
+}
+.ip-info{
+    color: var(--primary-color) !important;
+}
+#search{
+    background-color: var(--primary-bg-color);
+    border: none;
+    padding: 10px 40px;
+    border-radius: 25px;
+    color: white;
+}
+.weather-info{
+    background-color: var(--primary-bg-color);
+    color: #bfc1c8;
+}
+.weather-info .box .title{
+    background-color: #2D303D;
+    padding: 10px;
+}
+.weather-info .box .title h4{
+    font-size: 16px;
+}
+.weather-info .box .body{
+    background-color: #323544;
+    padding: 10px;
+    
+}
+.weather-info .box .body p{
+    font-size: 4rem;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.other .title{
+    background-color: #222531 !important;
+}
+.other .body {
+    background-color: #262936 !important;
+}
+.footer{
+    background-color: #262936;
+    
+}
+.footer p {
+    color: #bfc1c8;
+    font-size: 16px;
+}
